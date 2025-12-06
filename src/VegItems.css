@@ -1,0 +1,57 @@
+/* Header / Title */
+.headerstyles {
+  color: #2e7d32;
+  background: linear-gradient(to right, #faffe0, #e9f9c9);
+  text-align: center;
+  border: 2px solid #2e7d32;
+  padding: 12px;
+  border-radius: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  letter-spacing: 1px;
+}
+
+/* Vegetables List Items */
+.veg-item {
+  padding: 14px 18px;
+  margin: 12px 0;
+  background: #c71616;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.veg-item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  background-color: #fafafa;
+}
+
+/* Add to Cart Button */
+.add-btn {
+  padding: 8px 16px;
+  background: linear-gradient(45deg, #007bff, #0056d6);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+  box-shadow: 0 4px 10px rgba(0, 123, 255, 0.3);
+  transition: 0.3s ease;
+}
+
+.add-btn:hover {
+  background: linear-gradient(45deg, #0056d6, #003c9c);
+  box-shadow: 0 6px 14px rgba(0, 86, 214, 0.4);
+  transform: scale(1.05);
+}
+
+.add-btn:active {
+  transform: scale(0.97);
+}
